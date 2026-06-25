@@ -18,7 +18,7 @@ export function Header() {
 
         <nav className="hidden items-center gap-5 lg:flex">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="focus-ring rounded-sm text-sm font-semibold text-white/78 transition hover:text-gold">
+            <Link key={item.href} href={item.href} className="focus-ring rounded-sm text-sm font-semibold text-white transition hover:text-gold">
               {item.label}
             </Link>
           ))}
@@ -57,7 +57,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="focus-ring rounded-md px-1 py-3 text-base font-semibold text-white/85"
+                className="focus-ring rounded-md px-1 py-3 text-base font-semibold text-white"
                 onClick={() => setOpen(false)}
               >
                 {item.label}
