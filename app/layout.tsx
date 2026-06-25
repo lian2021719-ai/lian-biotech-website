@@ -8,10 +8,10 @@ import { JsonLd } from "@/components/JsonLd";
 import { createMetadata, organizationSchema } from "@/lib/seo";
 
 const notoSansTc = Noto_Sans_TC({
-  subsets: ["chinese-traditional", "latin"],
   weight: ["400", "500", "700", "900"],
   variable: "--font-noto-sans-tc",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = createMetadata();
