@@ -17,7 +17,7 @@ export default function NewsPage() {
         eyebrow="News"
         title="最新消息"
         description="掌握立安服務公告、品質管理資訊與中藥保健食品代工趨勢。"
-        image="https://images.unsplash.com/photo-1581091877018-dac6a371d50f?auto=format&fit=crop&w=1800&q=82"
+        image="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1800&q=82"
       />
       <section className="section-y bg-white">
         <div className="container-x">

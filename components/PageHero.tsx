@@ -9,8 +9,9 @@ type PageHeroProps = {
 
 export function PageHero({ eyebrow, title, description, image }: PageHeroProps) {
   return (
-    <section className="relative isolate overflow-hidden bg-white pt-[var(--header-height)] text-ink">
-      <div className="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-mist" />
+    <section className="relative isolate overflow-hidden bg-mist pt-[var(--header-height)] text-ink">
+      <div className="absolute inset-y-0 right-0 -z-10 hidden w-[30%] bg-navy lg:block" />
+      <div className="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-white" />
       <div className="container-x grid min-h-[430px] items-center gap-10 py-20 lg:grid-cols-[0.95fr_1.05fr]">
         <div className="max-w-3xl">
           <p className="eyebrow">{eyebrow}</p>
@@ -21,7 +22,7 @@ export function PageHero({ eyebrow, title, description, image }: PageHeroProps) 
             <ButtonLink href="/oem-odm" variant="ghost">委託製造</ButtonLink>
           </div>
         </div>
-        <div className="overflow-hidden rounded-md border border-gold/20 bg-white p-2 shadow-soft">
+        <div className="overflow-hidden rounded-md border border-gold/45 bg-white p-2 shadow-soft">
           <div
             className="h-[300px] bg-cover bg-center sm:h-[360px]"
             style={{ backgroundImage: `url(${image})` }}

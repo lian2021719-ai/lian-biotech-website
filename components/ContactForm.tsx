@@ -1,10 +1,10 @@
-"use client";
+﻿"use client";
 
 import { Send } from "lucide-react";
 import { useState } from "react";
 
 const inputClass =
-  "focus-ring w-full rounded-md border border-navy/15 bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-ink/38 focus:border-forest";
+  "focus-ring w-full rounded-md border border-forest/20 bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-ink/38 focus:border-forest";
 
 export function ContactForm() {
   const [sent, setSent] = useState(false);
@@ -55,13 +55,13 @@ export function ContactForm() {
       </label>
       <button
         type="submit"
-        className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-forest px-6 text-sm font-bold text-white transition hover:bg-[#426d40]"
+        className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-forest px-6 text-sm font-bold text-white transition hover:bg-navy"
       >
         <Send size={18} />
         送出洽詢
       </button>
       {sent ? (
-        <p className="rounded-md bg-forest/10 px-4 py-3 text-sm font-semibold text-forest">
+        <p className="rounded-md bg-gold/20 px-4 py-3 text-sm font-semibold text-navy">
           已收到您的洽詢資料。此範例表單已預留送出介面，可於正式上線時串接 Email、CRM 或 API。
         </p>
       ) : null}

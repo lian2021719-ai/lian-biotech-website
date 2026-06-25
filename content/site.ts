@@ -1,4 +1,4 @@
-import {
+﻿import {
   BadgeCheck,
   Beaker,
   ClipboardCheck,
@@ -10,7 +10,6 @@ import {
   ShieldCheck,
   Sparkles,
   TestTube2,
-  Truck,
 } from "lucide-react";
 
 export const site = {
@@ -42,32 +41,32 @@ export const navItems = [
 export const advantages = [
   {
     title: "GMP 品質管理",
-    text: "以標準化 SOP、批次紀錄與檢驗流程，降低製造風險並提升產品一致性。",
+    text: "以標準化 SOP、批次紀錄與檢驗流程，讓中藥與保健食品製造兼具傳統底蘊與現代品質標準。",
     icon: ShieldCheck,
   },
   {
-    title: "專業研發能力",
-    text: "協助品牌從市場定位、劑型選擇、配方討論到打樣測試，縮短開發週期。",
+    title: "草本配方討論",
+    text: "協助品牌評估原料、劑型、風味與市場定位，將中藥概念轉化為可量產的產品規格。",
     icon: FlaskConical,
   },
   {
-    title: "現代化設備",
-    text: "支援丸劑、散劑、膠囊、膏劑與保健食品製造，滿足不同產品規格。",
+    title: "現代化製程設備",
+    text: "支援丸劑、散劑、膠囊、膏劑與保健食品製造，兼顧製程效率與批次穩定。",
     icon: Factory,
   },
   {
-    title: "OEM／ODM 服務",
-    text: "從原料、製程、包裝到交貨，提供品牌客戶完整委託製造解決方案。",
+    title: "OEM／ODM 合作",
+    text: "從需求評估、打樣、量產到交貨服務，提供品牌客戶完整委託製造解決方案。",
     icon: PackageCheck,
   },
 ];
 
 export const capabilities = [
-  { name: "丸劑", icon: Sparkles, text: "適合傳統中藥與日常保健產品。" },
-  { name: "散劑", icon: Beaker, text: "粉末調配、分裝與包裝製程。" },
-  { name: "膠囊", icon: Pill, text: "膠囊代工與保健食品品牌需求。" },
-  { name: "膏劑", icon: Scale, text: "傳統膏方與特色劑型開發。" },
-  { name: "保健食品", icon: BadgeCheck, text: "支援 OEM／ODM 商業化量產。" },
+  { name: "丸劑", icon: Sparkles, text: "適合傳統中藥與日常保健產品，保留草本產品的熟悉感。" },
+  { name: "散劑", icon: Beaker, text: "支援粉末調配、分裝與包裝，適合多元保健食品開發。" },
+  { name: "膠囊", icon: Pill, text: "膠囊代工與保健食品品牌常用劑型，便於現代通路銷售。" },
+  { name: "膏劑", icon: Scale, text: "可延伸傳統膏方與特色草本劑型，建立產品差異化。" },
+  { name: "保健食品", icon: BadgeCheck, text: "支援 OEM／ODM 商業化量產，協助品牌穩定上市。" },
 ];
 
 export const oemSteps = [
@@ -88,24 +87,24 @@ export const qualityItems = [
 
 export const factoryAreas = [
   {
-    title: "生產區",
+    title: "草本原料管理",
     image:
-      "https://images.unsplash.com/photo-1581093458791-9d15482442f6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1200&q=82",
   },
   {
-    title: "包裝區",
+    title: "現代化生產區",
     image:
-      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581093458791-9d15482442f6?auto=format&fit=crop&w=1200&q=82",
   },
   {
-    title: "品管室",
+    title: "品管與檢驗",
     image:
-      "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=82",
   },
   {
-    title: "倉儲區",
+    title: "包裝與倉儲",
     image:
-      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1200&q=82",
   },
 ];
 

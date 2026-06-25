@@ -16,7 +16,7 @@ export default function AboutPage() {
         eyebrow="About LI-AN"
         title="以專業製藥精神，承接品牌信任"
         description="立安深耕中藥與保健食品製造，結合傳統中草藥知識與現代化品質管理，成為品牌客戶穩定可靠的製造夥伴。"
-        image="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1800&q=82"
+        image="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1800&q=82"
       />
       <section className="section-y bg-white">
         <div className="container-x grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">

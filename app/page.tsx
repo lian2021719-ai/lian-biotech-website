@@ -9,37 +9,38 @@ import { advantages, capabilities, factoryAreas, oemSteps, qualityItems, site } 
 export default function HomePage() {
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-white pt-[var(--header-height)] text-ink">
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-[34%] bg-mist" />
+      <section className="relative isolate overflow-hidden bg-mist pt-[var(--header-height)] text-ink">
+        <div className="absolute inset-y-0 right-0 -z-10 hidden w-[34%] bg-navy lg:block" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-[28%] bg-white" />
         <div className="container-x grid min-h-[calc(100svh-24px)] items-center gap-12 py-20 lg:grid-cols-[0.92fr_1.08fr]">
           <FadeIn>
-            <p className="eyebrow">GMP OEM / ODM Manufacturing</p>
+            <p className="eyebrow">Herbal Biotechnology Manufacturing</p>
             <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-navy sm:text-6xl">
-              GMP 中藥與保健食品 OEM／ODM 製造夥伴
+              中藥底蘊 × 現代生技的 OEM／ODM 製造夥伴
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-ink/70">
-              提供丸劑、散劑、膠囊、膏劑與保健食品委託製造，協助品牌從配方討論、打樣測試到量產交貨。
+              以 GMP 品質系統承接草本配方、膠囊、粉劑、丸劑與保健食品製造，協助品牌從概念、打樣到量產交貨。
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/contact">立即洽詢</ButtonLink>
               <ButtonLink href="/oem-odm" variant="ghost">查看合作流程</ButtonLink>
             </div>
-            <div className="mt-10 grid gap-4 border-y border-gold/20 py-6 sm:grid-cols-2">
+            <div className="mt-10 grid gap-4 border-y border-gold/35 py-6 sm:grid-cols-2">
               {["GMP 品質管理", "多劑型製造", "研發打樣支援", "台南官田製造基地"].map((item) => (
                 <div key={item} className="flex items-center gap-3 text-sm font-bold text-navy">
-                  <CheckCircle2 className="text-gold" size={19} />
+                  <CheckCircle2 className="text-forest" size={19} />
                   {item}
                 </div>
               ))}
             </div>
           </FadeIn>
           <FadeIn delay={0.12}>
-            <div className="overflow-hidden rounded-md border border-gold/20 bg-white p-2 shadow-soft">
+            <div className="overflow-hidden rounded-md border border-gold/45 bg-white p-2 shadow-soft">
               <div
                 className="min-h-[360px] bg-cover bg-center lg:min-h-[560px]"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1800&q=82)",
+                    "url(https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1800&q=82)",
                 }}
               />
             </div>
@@ -60,8 +61,8 @@ export default function HomePage() {
               const Icon = item.icon;
               return (
                 <FadeIn key={item.title} delay={index * 0.04}>
-                  <article className="h-full rounded-md border border-gold/20 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
-                    <div className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-gold/10 text-gold">
+                  <article className="h-full rounded-md border border-gold/25 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
+                    <div className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-navy text-gold">
                       <Icon size={25} />
                     </div>
                     <h3 className="mt-6 text-xl font-black text-navy">{item.title}</h3>
@@ -85,7 +86,7 @@ export default function HomePage() {
             {capabilities.map((item) => {
               const Icon = item.icon;
               return (
-                <div key={item.name} className="rounded-md border border-gold/15 bg-white p-6 shadow-sm">
+                <div key={item.name} className="rounded-md border border-gold/25 bg-white p-6 shadow-sm">
                   <Icon className="text-forest" size={25} />
                   <h3 className="mt-4 text-lg font-black text-navy">{item.name}</h3>
                   <p className="mt-2 text-sm leading-7 text-ink/65">{item.text}</p>
@@ -106,8 +107,8 @@ export default function HomePage() {
           />
           <div className="mt-14 grid gap-4 md:grid-cols-3 lg:grid-cols-6">
             {oemSteps.map((step, index) => (
-              <div key={step} className="relative rounded-md border border-gold/20 bg-white p-5 text-center shadow-sm">
-                <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-gold/10 text-sm font-black text-gold">
+              <div key={step} className="relative rounded-md border border-gold/25 bg-white p-5 text-center shadow-sm">
+                <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full bg-navy text-sm font-black text-gold">
                   {String(index + 1).padStart(2, "0")}
                 </div>
                 <p className="mt-4 font-black text-navy">{step}</p>
@@ -131,7 +132,7 @@ export default function HomePage() {
             {qualityItems.map((item) => {
               const Icon = item.icon;
               return (
-                <div key={item.title} className="rounded-md border border-gold/15 bg-white p-6 shadow-sm">
+                <div key={item.title} className="rounded-md border border-gold/25 bg-white p-6 shadow-sm">
                   <Icon className="text-gold" size={25} />
                   <h3 className="mt-4 text-lg font-black text-navy">{item.title}</h3>
                   <p className="mt-2 text-sm leading-7 text-ink/65">{item.text}</p>
@@ -152,7 +153,7 @@ export default function HomePage() {
           />
           <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {factoryAreas.map((area) => (
-              <article key={area.title} className="group overflow-hidden rounded-md border border-gold/20 bg-white shadow-sm">
+              <article key={area.title} className="group overflow-hidden rounded-md border border-gold/25 bg-white shadow-sm">
                 <div
                   className="h-64 bg-cover bg-center transition duration-500 group-hover:scale-105"
                   style={{ backgroundImage: `url(${area.image})` }}
@@ -183,7 +184,7 @@ export default function HomePage() {
               <ButtonLink href="/contact">填寫洽詢表單</ButtonLink>
             </div>
           </div>
-          <div className="overflow-hidden rounded-md border border-gold/20 bg-white p-2 shadow-sm">
+          <div className="overflow-hidden rounded-md border border-gold/30 bg-white p-2 shadow-sm">
             <MapEmbed />
           </div>
         </div>

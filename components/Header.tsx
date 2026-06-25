@@ -18,7 +18,7 @@ export function Header() {
 
         <nav className="hidden items-center gap-5 lg:flex">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="focus-ring rounded-sm text-sm font-semibold text-ink/72 transition hover:text-gold">
+            <Link key={item.href} href={item.href} className="focus-ring rounded-sm text-sm font-semibold text-ink/72 transition hover:text-forest">
               {item.label}
             </Link>
           ))}
@@ -27,14 +27,14 @@ export function Header() {
         <div className="hidden items-center gap-2 lg:flex">
           <a
             href={`tel:${site.tel}`}
-            className="focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border border-gold/30 px-4 text-sm font-bold text-navy transition hover:border-gold/60"
+            className="focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border border-gold/35 px-4 text-sm font-bold text-navy transition hover:border-gold/70"
           >
             <Phone size={17} />
             {site.tel}
           </a>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-10 items-center rounded-md bg-forest px-4 text-sm font-bold text-white transition hover:bg-[#426d40]"
+            className="focus-ring inline-flex min-h-10 items-center rounded-md bg-forest px-4 text-sm font-bold text-white transition hover:bg-navy"
           >
             立即洽詢
           </Link>
@@ -76,3 +76,4 @@ export function Header() {
     </header>
   );
 }
+

@@ -17,7 +17,7 @@ export default function ProductsPage() {
         eyebrow="Products"
         title="中藥與保健食品劑型介紹"
         description="以品牌需求、配方特性與市場定位為基礎，選擇適合商業化量產的產品劑型。"
-        image="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1800&q=82"
+        image="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1800&q=82"
       />
       <section className="section-y bg-white">
         <div className="container-x">

@@ -27,7 +27,7 @@ export default function OemPage() {
         eyebrow="OEM / ODM"
         title="從配方到量產的委託製造服務"
         description="支援中藥製造、保健食品代工、膠囊代工與粉劑代工，協助品牌將產品想法轉化為可穩定交付的商品。"
-        image="https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=1800&q=82"
+        image="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1800&q=82"
       />
       <section className="section-y bg-white">
         <div className="container-x">
