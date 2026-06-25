@@ -32,7 +32,7 @@ export default function HomePage() {
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/contact">立即洽詢</ButtonLink>
-              <ButtonLink href="/oem-odm" variant="secondary">查看合作流程</ButtonLink>
+              <ButtonLink href="/oem-odm" variant="secondary">委託製造</ButtonLink>
             </div>
             <div className="mt-10 grid gap-4 border-y border-gold/45 py-6 sm:grid-cols-2">
               {["GMP 品質管理", "多劑型製造", "研發打樣支援", "台南官田製造基地"].map((item) => (

@@ -17,7 +17,7 @@ export function Header() {
         </Link>
 
         <nav className="hidden items-center gap-5 lg:flex">
-          {navItems.map((item) => (
+          {navItems.filter((item) => item.href !== "/").map((item) => (
             <Link key={item.href} href={item.href} className="focus-ring rounded-sm text-sm font-semibold text-white transition hover:text-gold">
               {item.label}
             </Link>
@@ -53,7 +53,7 @@ export function Header() {
       {open ? (
         <div className="border-t border-gold/20 bg-navy lg:hidden">
           <nav className="container-x grid py-4">
-            {navItems.map((item) => (
+            {navItems.filter((item) => item.href !== "/").map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
