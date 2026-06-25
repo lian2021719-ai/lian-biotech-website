@@ -19,7 +19,7 @@ export default function QualityPage() {
         eyebrow="Quality Management"
         title="以品質系統建立製造信任"
         description="品質不是最後一道檢查，而是從原料、製程、紀錄、設備到成品放行的完整管理方式。"
-        image="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1800&q=82"
+        image="/images/quality-lab.png"
       />
       <section className="section-y bg-white">
         <div className="container-x grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">

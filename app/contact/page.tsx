@@ -20,7 +20,7 @@ export default function ContactPage() {
         eyebrow="Contact"
         title="聯絡我們"
         description="請留下產品需求與預估時程，立安將協助您評估適合的委託製造方式。"
-        image="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1800&q=82"
+        image="/images/gmp-manufacturing.png"
       />
       <section className="section-y bg-white">
         <div className="container-x grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">

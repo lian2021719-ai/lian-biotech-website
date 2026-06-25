@@ -19,7 +19,7 @@ export function PageHero({ eyebrow, title, description, image }: PageHeroProps) 
           <p className="mt-5 max-w-2xl text-lg leading-8 text-ink/68">{description}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <ButtonLink href="/contact">立即洽詢</ButtonLink>
-            <ButtonLink href="/oem-odm" variant="ghost">委託製造</ButtonLink>
+            <ButtonLink href="/oem-odm" variant="secondary">委託製造</ButtonLink>
           </div>
         </div>
         <div className="overflow-hidden rounded-md border border-gold/45 bg-white p-2 shadow-soft">

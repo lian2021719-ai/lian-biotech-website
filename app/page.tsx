@@ -7,6 +7,15 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { advantages, capabilities, factoryAreas, oemSteps, qualityItems, site } from "@/content/site";
 
 export default function HomePage() {
+  const supportItems = [
+    "品牌新品開發",
+    "中藥產品製造",
+    "保健食品代工",
+    "膠囊與粉劑量產",
+    "既有產品轉廠",
+    "OEM／ODM 長期合作",
+  ];
+
   return (
     <>
       <section className="relative isolate overflow-hidden bg-navy pt-[var(--header-height)] text-white">
@@ -40,11 +49,32 @@ export default function HomePage() {
                 className="min-h-[360px] bg-cover bg-center lg:min-h-[560px]"
                 style={{
                   backgroundImage:
-                    "url(https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1800&q=82)",
+                    "url(/images/hero-herbal-biotech.png)",
                 }}
               />
             </div>
           </FadeIn>
+        </div>
+      </section>
+
+      <section className="bg-mist py-14">
+        <div className="container-x grid gap-8 lg:grid-cols-[0.72fr_1fr] lg:items-center">
+          <div>
+            <p className="eyebrow">What We Do</p>
+            <h2 className="mt-3 text-3xl font-black leading-tight text-navy sm:text-4xl">
+              我們協助品牌完成從概念到量產的製造任務
+            </h2>
+            <p className="mt-4 text-base leading-8 text-ink/68">
+              不只是介紹工廠能力，而是協助品牌把產品需求整理成可開發、可打樣、可生產、可交付的合作流程。
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {supportItems.map((item) => (
+              <div key={item} className="rounded-md border border-gold/25 bg-white px-5 py-4 text-sm font-black text-navy shadow-sm">
+                {item}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

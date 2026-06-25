@@ -88,18 +88,15 @@ export const qualityItems = [
 export const factoryAreas = [
   {
     title: "草本原料管理",
-    image:
-      "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/quality-lab.png",
   },
   {
     title: "現代化生產區",
-    image:
-      "https://images.unsplash.com/photo-1581093458791-9d15482442f6?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/gmp-manufacturing.png",
   },
   {
     title: "品管與檢驗",
-    image:
-      "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=82",
+    image: "/images/quality-lab.png",
   },
   {
     title: "包裝與倉儲",

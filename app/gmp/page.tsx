@@ -17,7 +17,7 @@ export default function GmpPage() {
         eyebrow="GMP Facility"
         title="符合製藥思維的製造環境"
         description="以清楚動線、製程管理與品質檢驗支援 OEM／ODM 量產，讓每一批產品都有可追溯的品質基礎。"
-        image="https://images.unsplash.com/photo-1581093458791-9d15482442f6?auto=format&fit=crop&w=1800&q=82"
+        image="/images/gmp-manufacturing.png"
       />
       <section className="section-y bg-white">
         <div className="container-x">

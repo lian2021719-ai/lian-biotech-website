@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Menu, Phone, X } from "lucide-react";
 import Link from "next/link";
@@ -76,3 +76,4 @@ export function Header() {
     </header>
   );
 }
+
