@@ -9,7 +9,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-gold/15 bg-white/92 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-gold/20 bg-white/94 backdrop-blur">
       <div className="container-x flex h-[var(--header-height)] items-center justify-between gap-4">
         <Link href="/" className="focus-ring flex min-w-0 flex-col rounded-sm">
           <span className="text-base font-black text-navy sm:text-lg">立安生物科技製藥</span>
@@ -34,7 +34,7 @@ export function Header() {
           </a>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-10 items-center rounded-md bg-forest px-4 text-sm font-bold text-white transition hover:bg-navy"
+            className="focus-ring inline-flex min-h-10 items-center rounded-md bg-navy px-4 text-sm font-bold text-white transition hover:bg-forest"
           >
             立即洽詢
           </Link>
@@ -65,7 +65,7 @@ export function Header() {
             ))}
             <Link
               href="/contact"
-              className="mt-3 inline-flex min-h-12 items-center justify-center rounded-md bg-forest px-5 text-sm font-bold text-white"
+              className="mt-3 inline-flex min-h-12 items-center justify-center rounded-md bg-navy px-5 text-sm font-bold text-white"
               onClick={() => setOpen(false)}
             >
               立即洽詢

@@ -10,9 +10,9 @@ type ButtonLinkProps = {
 
 export function ButtonLink({ href, children, variant = "primary", className = "" }: ButtonLinkProps) {
   const styles = {
-    primary: "bg-forest text-white hover:bg-navy",
-    secondary: "bg-white text-navy ring-1 ring-gold/35 hover:bg-mist",
-    ghost: "border border-gold/55 text-navy hover:bg-gold/20",
+    primary: "bg-gold text-navy hover:bg-clay",
+    secondary: "bg-white text-navy ring-1 ring-gold/45 hover:bg-mist",
+    ghost: "border border-gold/55 text-white hover:bg-gold/15",
   };
 
   return (

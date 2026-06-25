@@ -9,33 +9,33 @@ import { advantages, capabilities, factoryAreas, oemSteps, qualityItems, site } 
 export default function HomePage() {
   return (
     <>
-      <section className="relative isolate overflow-hidden bg-mist pt-[var(--header-height)] text-ink">
-        <div className="absolute inset-y-0 right-0 -z-10 hidden w-[34%] bg-navy lg:block" />
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-[28%] bg-white" />
+      <section className="relative isolate overflow-hidden bg-navy pt-[var(--header-height)] text-white">
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_78%_28%,rgba(212,175,55,0.24),transparent_34%),linear-gradient(120deg,#0D2233_0%,#0D2233_58%,#14394a_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-[24%] bg-mist" />
         <div className="container-x grid min-h-[calc(100svh-24px)] items-center gap-12 py-20 lg:grid-cols-[0.92fr_1.08fr]">
           <FadeIn>
-            <p className="eyebrow">Herbal Biotechnology Manufacturing</p>
-            <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-navy sm:text-6xl">
+            <p className="text-sm font-bold text-gold">Herbal Biotechnology Manufacturing</p>
+            <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-6xl">
               中藥底蘊 × 現代生技的 OEM／ODM 製造夥伴
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-ink/70">
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/76">
               以 GMP 品質系統承接草本配方、膠囊、粉劑、丸劑與保健食品製造，協助品牌從概念、打樣到量產交貨。
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/contact">立即洽詢</ButtonLink>
-              <ButtonLink href="/oem-odm" variant="ghost">查看合作流程</ButtonLink>
+              <ButtonLink href="/oem-odm" variant="secondary">查看合作流程</ButtonLink>
             </div>
-            <div className="mt-10 grid gap-4 border-y border-gold/35 py-6 sm:grid-cols-2">
+            <div className="mt-10 grid gap-4 border-y border-gold/45 py-6 sm:grid-cols-2">
               {["GMP 品質管理", "多劑型製造", "研發打樣支援", "台南官田製造基地"].map((item) => (
-                <div key={item} className="flex items-center gap-3 text-sm font-bold text-navy">
-                  <CheckCircle2 className="text-forest" size={19} />
+                <div key={item} className="flex items-center gap-3 text-sm font-bold text-white">
+                  <CheckCircle2 className="text-gold" size={19} />
                   {item}
                 </div>
               ))}
             </div>
           </FadeIn>
           <FadeIn delay={0.12}>
-            <div className="overflow-hidden rounded-md border border-gold/45 bg-white p-2 shadow-soft">
+            <div className="overflow-hidden rounded-md border border-gold/60 bg-white/95 p-2 shadow-soft">
               <div
                 className="min-h-[360px] bg-cover bg-center lg:min-h-[560px]"
                 style={{

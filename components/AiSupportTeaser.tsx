@@ -13,7 +13,7 @@ export function AiSupportTeaser() {
             已預留未來串接 AI 客服、常見問題知識庫與 OEM 洽詢導流的版位，可延伸為 24 小時初步需求收集入口。
           </p>
         </div>
-        <div className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-3 text-sm font-bold text-forest ring-1 ring-gold/30">
+        <div className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-3 text-sm font-bold text-navy ring-1 ring-gold/35">
           <MessageSquareText size={18} />
           Ready for AI
         </div>

@@ -10,19 +10,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#183645",
-        forest: "#1E6D83",
-        gold: "#D7B66A",
-        clay: "#D8C6A5",
-        mist: "#F8F4EA",
-        ink: "#17262D",
+        navy: "#0D2233",
+        forest: "#1E6F6B",
+        gold: "#D4AF37",
+        clay: "#F2D48A",
+        mist: "#F2E9D8",
+        ink: "#1A1A1A",
         wine: "#8A2D2F",
       },
       fontFamily: {
         sans: ["var(--font-noto-sans-tc)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 22px 60px rgba(24, 54, 69, 0.15)",
+        soft: "0 22px 60px rgba(13, 34, 51, 0.18)",
       },
     },
   },

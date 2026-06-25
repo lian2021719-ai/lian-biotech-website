@@ -4,7 +4,7 @@ import { Send } from "lucide-react";
 import { useState } from "react";
 
 const inputClass =
-  "focus-ring w-full rounded-md border border-forest/20 bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-ink/38 focus:border-forest";
+  "focus-ring w-full rounded-md border border-gold/30 bg-white px-4 py-3 text-sm text-ink outline-none transition placeholder:text-ink/38 focus:border-forest";
 
 export function ContactForm() {
   const [sent, setSent] = useState(false);
@@ -55,7 +55,7 @@ export function ContactForm() {
       </label>
       <button
         type="submit"
-        className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-forest px-6 text-sm font-bold text-white transition hover:bg-navy"
+        className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-navy px-6 text-sm font-bold text-white transition hover:bg-forest"
       >
         <Send size={18} />
         送出洽詢
