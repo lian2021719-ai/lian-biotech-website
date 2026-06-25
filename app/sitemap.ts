@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { navItems, site } from "@/content/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [...navItems.map((item) => item.href), "/downloads"];
+  const routes = navItems.map((item) => item.href);
 
   return routes.map((route) => ({
     url: new URL(route, site.url).toString(),

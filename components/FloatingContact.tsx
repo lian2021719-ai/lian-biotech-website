@@ -1,4 +1,4 @@
-import { MessageCircle, Phone } from "lucide-react";
+﻿import { MessageCircle, Phone } from "lucide-react";
 import Link from "next/link";
 import { site } from "@/content/site";
 
@@ -14,7 +14,7 @@ export function FloatingContact() {
       </a>
       <Link
         href="/contact"
-        className="focus-ring inline-flex h-12 w-12 items-center justify-center rounded-full bg-navy text-white shadow-soft transition hover:bg-[#102f53]"
+        className="focus-ring inline-flex h-12 w-12 items-center justify-center rounded-full bg-gold text-white shadow-soft transition hover:bg-[#96733c]"
         aria-label="前往聯絡表單"
       >
         <MessageCircle size={21} />

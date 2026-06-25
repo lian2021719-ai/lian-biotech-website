@@ -10,16 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#153B67",
+        navy: "#2F352F",
         forest: "#4C7D4A",
-        mist: "#F5F6F8",
-        ink: "#172033",
+        gold: "#A98245",
+        clay: "#D8C7AA",
+        mist: "#F8F7F3",
+        ink: "#242820",
       },
       fontFamily: {
         sans: ["var(--font-noto-sans-tc)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 18px 50px rgba(21, 59, 103, 0.12)",
+        soft: "0 22px 60px rgba(47, 53, 47, 0.10)",
       },
     },
   },

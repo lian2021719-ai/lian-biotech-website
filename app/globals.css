@@ -17,8 +17,8 @@ html {
 
 body {
   margin: 0;
-  background: #ffffff;
-  color: #172033;
+  background: #fbfaf7;
+  color: #242820;
   font-family: var(--font-noto-sans-tc), system-ui, sans-serif;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 ::selection {
-  background: rgba(76, 125, 74, 0.22);
+  background: rgba(169, 130, 69, 0.22);
 }
 
 .container-x {
@@ -37,11 +37,11 @@ a {
 }
 
 .section-y {
-  padding-block: clamp(64px, 8vw, 112px);
+  padding-block: clamp(76px, 9vw, 128px);
 }
 
 .eyebrow {
-  color: #4c7d4a;
+  color: #a98245;
   font-size: 0.86rem;
   font-weight: 700;
   letter-spacing: 0;
@@ -53,5 +53,5 @@ a {
 }
 
 .focus-ring:focus-visible {
-  outline-color: #4c7d4a;
+  outline-color: #a98245;
 }

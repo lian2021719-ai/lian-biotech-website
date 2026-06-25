@@ -7,8 +7,8 @@ type SectionHeadingProps = {
 };
 
 export function SectionHeading({ eyebrow, title, description, align = "left", tone = "light" }: SectionHeadingProps) {
-  const titleColor = tone === "dark" ? "text-white" : "text-navy";
-  const descriptionColor = tone === "dark" ? "text-white/72" : "text-ink/68";
+  const titleColor = tone === "dark" ? "text-navy" : "text-navy";
+  const descriptionColor = tone === "dark" ? "text-ink/68" : "text-ink/68";
 
   return (
     <div className={align === "center" ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}>
