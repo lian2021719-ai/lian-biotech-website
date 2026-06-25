@@ -1,5 +1,4 @@
 ﻿import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
-import { AiSupportTeaser } from "@/components/AiSupportTeaser";
 import { ButtonLink } from "@/components/ButtonLink";
 import { FadeIn } from "@/components/FadeIn";
 import { MapEmbed } from "@/components/MapEmbed";
@@ -220,7 +219,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <AiSupportTeaser />
     </>
   );
 }
