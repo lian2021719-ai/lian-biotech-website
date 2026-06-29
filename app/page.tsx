@@ -48,7 +48,7 @@ export default function HomePage() {
                 className="min-h-[360px] bg-cover bg-center lg:min-h-[560px]"
                 style={{
                   backgroundImage:
-                    "url(/images/hero-herbal-biotech.png)",
+                    "url(/images/hero-herbal-biotech-v2.png)",
                 }}
               />
             </div>
