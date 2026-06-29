@@ -18,9 +18,15 @@ export default function HomePage() {
   return (
     <>
       <section className="relative isolate overflow-hidden bg-navy pt-[var(--header-height)] text-white">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_80%_28%,rgba(212,175,55,0.22),transparent_30%),linear-gradient(110deg,#0D2233_0%,#0D2233_54%,#143c3a_100%)]" />
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-[18%] bg-[linear-gradient(90deg,rgba(13,34,51,0)_0%,rgba(212,175,55,0.28)_48%,rgba(242,233,216,0.95)_100%)]" />
-        <div className="container-x grid min-h-[calc(100svh-16px)] items-center gap-12 py-20 lg:grid-cols-[0.88fr_1.12fr]">
+        <div
+          className="absolute inset-0 -z-20 bg-cover bg-[center_right] lg:bg-center"
+          style={{
+            backgroundImage: "url(/images/hero-herbal-biotech-v3.png)",
+          }}
+        />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(13,34,51,0.92)_0%,rgba(13,34,51,0.74)_38%,rgba(13,34,51,0.22)_58%,rgba(13,34,51,0)_100%)] lg:bg-[linear-gradient(90deg,rgba(13,34,51,0.62)_0%,rgba(13,34,51,0.34)_39%,rgba(13,34,51,0.04)_63%,rgba(13,34,51,0)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gold/55" />
+        <div className="container-x grid min-h-[calc(100svh-16px)] items-center gap-12 py-20 lg:grid-cols-[0.72fr_1.28fr]">
           <FadeIn>
             <p className="text-sm font-bold text-gold">Herbal Biotechnology Manufacturing</p>
             <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-6xl">
@@ -42,18 +48,7 @@ export default function HomePage() {
               ))}
             </div>
           </FadeIn>
-          <FadeIn delay={0.12}>
-            <div className="relative overflow-hidden rounded-md border border-gold/55 bg-white shadow-soft">
-              <div className="absolute inset-y-0 left-0 z-10 w-1/3 bg-[linear-gradient(90deg,rgba(255,255,255,0.96),rgba(255,255,255,0.72),rgba(255,255,255,0))]" />
-              <div
-                className="min-h-[380px] bg-cover bg-center lg:min-h-[560px]"
-                style={{
-                  backgroundImage:
-                    "url(/images/hero-herbal-biotech-v2.png)",
-                }}
-              />
-            </div>
-          </FadeIn>
+          <div className="hidden min-h-[560px] lg:block" aria-hidden="true" />
         </div>
       </section>
 
