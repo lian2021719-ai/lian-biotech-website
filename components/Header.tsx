@@ -12,7 +12,7 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-gold/25 bg-navy/95 backdrop-blur">
       <div className="container-x flex h-[var(--header-height)] items-center justify-between gap-4">
         <Link href="/" className="focus-ring flex min-w-0 flex-col rounded-sm">
-          <span className="text-base font-black text-white sm:text-lg">立安生物科技製藥</span>
+          <span className="text-sm font-black text-white sm:text-base">{site.name}</span>
           <span className="hidden text-xs font-medium text-gold sm:block">GMP Manufacturing Partner</span>
         </Link>
 
