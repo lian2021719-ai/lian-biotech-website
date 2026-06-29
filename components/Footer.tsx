@@ -33,7 +33,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-gold/15 py-5 text-center text-xs text-ink/45">
-        Copyright © 2026 LI-AN BIOTECHNOLOGY PHARMACEUTICAL CO., LTD. All rights reserved.
+        Copyright © 2026 LI-AN BIOTECH PHARMA CO., LTD. All rights reserved.
       </div>
     </footer>
   );

@@ -13,7 +13,7 @@ export function Header() {
       <div className="container-x flex h-[var(--header-height)] items-center justify-between gap-4">
         <Link href="/" className="focus-ring flex min-w-0 flex-col rounded-sm">
           <span className="text-sm font-black text-white sm:text-base">{site.name}</span>
-          <span className="hidden text-xs font-medium text-gold sm:block">GMP Manufacturing Partner</span>
+          <span className="hidden text-xs font-medium text-gold sm:block">LI-AN BIOTECH PHARMA CO., LTD.</span>
         </Link>
 
         <nav className="hidden items-center gap-5 lg:flex">
