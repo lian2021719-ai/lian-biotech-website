@@ -40,6 +40,7 @@ export function organizationSchema() {
     name: site.name,
     url: site.url,
     telephone: site.tel,
+    faxNumber: site.fax,
     email: site.email,
     address: {
       "@type": "PostalAddress",

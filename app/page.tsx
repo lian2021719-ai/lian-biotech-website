@@ -28,16 +28,16 @@ export default function HomePage() {
         <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gold/55" />
         <div className="container-x grid min-h-[calc(100svh-16px)] items-center gap-12 py-20 lg:grid-cols-[0.72fr_1.28fr]">
           <FadeIn>
-            <p className="text-sm font-bold text-gold">Herbal Biotechnology Manufacturing</p>
+            <p className="text-sm font-bold text-gold">立安製藥</p>
             <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-6xl">
-              中藥底蘊 × 現代生技的 OEM／ODM 製造夥伴
+              守好每一道品質
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/76">
-              以 GMP 品質系統承接草本配方、膠囊、粉劑、丸劑與保健食品製造，協助品牌從概念、打樣到量產交貨。
+              穩健製造，安心託付
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/contact">立即洽詢</ButtonLink>
-              <ButtonLink href="/oem-odm" variant="secondary">委託製造</ButtonLink>
+              <ButtonLink href="/oem-odm" variant="secondary">OEM／ODM 委託製造</ButtonLink>
             </div>
             <div className="mt-10 grid gap-4 border-y border-gold/45 py-6 sm:grid-cols-2">
               {["GMP 品質管理", "多劑型製造", "研發打樣支援", "台南官田製造基地"].map((item) => (

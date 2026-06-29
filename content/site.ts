@@ -20,7 +20,8 @@ export const site = {
     "立安生物科技製藥提供 GMP 中藥、保健食品、膠囊、粉劑與丸劑 OEM／ODM 委託製造服務，從配方開發、品質管理到生產交付，協助品牌建立值得信賴的產品。",
   address: "720 台南市官田區工業路3號",
   tel: "06-6981929",
-  email: "service@lian6981929.com.tw",
+  fax: "06-6992187",
+  email: "lian6981929@yahoo.com.tw",
   hours: "星期一～星期五 08:00–17:00",
   mapUrl:
     "https://www.google.com/maps?q=%E5%8F%B0%E5%8D%97%E5%B8%82%E5%AE%98%E7%94%B0%E5%8D%80%E5%B7%A5%E6%A5%AD%E8%B7%AF3%E8%99%9F&output=embed",

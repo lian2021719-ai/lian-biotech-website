@@ -1,5 +1,5 @@
 ﻿import Link from "next/link";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone, Printer } from "lucide-react";
 import { navItems, site } from "@/content/site";
 
 export function Footer() {
@@ -25,8 +25,9 @@ export function Footer() {
         <div>
           <p className="font-bold text-navy">聯絡資訊</p>
           <ul className="mt-4 space-y-3 text-sm text-ink/68">
-            <li className="flex gap-3"><Phone size={18} className="text-gold" />{site.tel}</li>
-            <li className="flex gap-3"><Mail size={18} className="text-gold" />{site.email}</li>
+            <li className="flex gap-3"><Phone size={18} className="text-gold" />電話：{site.tel}</li>
+            <li className="flex gap-3"><Printer size={18} className="text-gold" />傳真：{site.fax}</li>
+            <li className="flex gap-3"><Mail size={18} className="text-gold" />Email：{site.email}</li>
             <li className="flex gap-3"><MapPin size={18} className="text-gold" />{site.address}</li>
             <li className="flex gap-3"><Clock size={18} className="text-gold" />{site.hours}</li>
           </ul>

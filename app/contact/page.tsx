@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone, Printer } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 import { MapEmbed } from "@/components/MapEmbed";
 import { PageHero } from "@/components/PageHero";
@@ -28,7 +28,7 @@ export default function ContactPage() {
             <SectionHeading
               eyebrow="Inquiry"
               title="OEM／ODM 洽詢"
-              description="表單目前以前端方式預留，正式部署時可串接寄信服務、CRM、Google Sheet 或後端 API。"
+              description="請留下產品需求與預估時程，立安將協助您評估適合的 OEM／ODM 委託製造方式。"
             />
             <div className="mt-8 rounded-md bg-mist p-6">
               <ContactForm />
@@ -38,8 +38,9 @@ export default function ContactPage() {
             <div className="rounded-md border border-navy/10 p-6 shadow-sm">
               <h2 className="text-2xl font-black text-navy">公司資訊</h2>
               <ul className="mt-6 space-y-4 text-sm leading-7 text-ink/72">
-                <li className="flex gap-3"><Phone className="mt-1 text-forest" size={20} />{site.tel}</li>
-                <li className="flex gap-3"><Mail className="mt-1 text-forest" size={20} />{site.email}</li>
+                <li className="flex gap-3"><Phone className="mt-1 text-forest" size={20} />電話：{site.tel}</li>
+                <li className="flex gap-3"><Printer className="mt-1 text-forest" size={20} />傳真：{site.fax}</li>
+                <li className="flex gap-3"><Mail className="mt-1 text-forest" size={20} />Email：{site.email}</li>
                 <li className="flex gap-3"><MapPin className="mt-1 text-forest" size={20} />{site.address}</li>
                 <li className="flex gap-3"><Clock className="mt-1 text-forest" size={20} />{site.hours}</li>
               </ul>
