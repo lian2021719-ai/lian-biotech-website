@@ -28,12 +28,11 @@ export default function HomePage() {
         <div className="absolute inset-x-0 bottom-0 -z-10 h-px bg-gold/55" />
         <div className="container-x grid min-h-[calc(100svh-16px)] items-center gap-12 py-20 lg:grid-cols-[0.72fr_1.28fr]">
           <FadeIn>
-            <p className="text-sm font-bold text-gold">立安製藥</p>
-            <h1 className="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-6xl">
-              守好每一道品質
+            <h1 className="max-w-4xl text-4xl font-black leading-tight text-white sm:text-6xl">
+              以嚴謹品質守護每一道製程
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/76">
-              穩健製造，安心託付
+              從草本原料、配方討論、製程控管到成品檢驗，立安以穩健製造能力承接中藥與保健食品 OEM／ODM 需求，讓品牌把產品安心託付給值得信賴的製造夥伴。
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/contact">立即洽詢</ButtonLink>
