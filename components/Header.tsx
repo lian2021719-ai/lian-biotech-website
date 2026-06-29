@@ -32,12 +32,6 @@ export function Header() {
             <Phone size={17} />
             {site.tel}
           </a>
-          <Link
-            href="/contact"
-            className="focus-ring inline-flex min-h-10 items-center rounded-md bg-gold px-4 text-sm font-bold text-navy transition hover:bg-clay"
-          >
-            立即洽詢
-          </Link>
         </div>
 
         <button
@@ -63,13 +57,6 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              className="mt-3 inline-flex min-h-12 items-center justify-center rounded-md bg-gold px-5 text-sm font-bold text-navy"
-              onClick={() => setOpen(false)}
-            >
-              立即洽詢
-            </Link>
           </nav>
         </div>
       ) : null}
